@@ -14,3 +14,4 @@ module ProjectPatch
   end
 
 end
+Project.send(:include, ProjectPatch)

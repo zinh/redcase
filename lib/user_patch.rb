@@ -10,3 +10,4 @@ module UserPatch
   end
 
 end
+User.send(:include, UserPatch)

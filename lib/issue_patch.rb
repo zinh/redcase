@@ -10,3 +10,4 @@ module IssuePatch
   end
 
 end
+Issue.send(:include, IssuePatch)

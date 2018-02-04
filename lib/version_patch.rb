@@ -10,3 +10,4 @@ module VersionPatch
   end
 
 end
+Version.send(:include, VersionPatch)
