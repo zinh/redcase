@@ -125,10 +125,10 @@ Redmine::Plugin.register :redcase do
     :after => :new_issue
   }
   ActionDispatch::Callbacks.to_prepare do
-    require 'issue_patch'
-    require 'project_patch'
-    require 'version_patch'
-    require 'user_patch'
+    require 'redcase/issue_patch'
+    require 'redcase/project_patch'
+    require 'redcase/version_patch'
+    require 'redcase/user_patch'
   end
 end
 
